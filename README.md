@@ -1,3 +1,3 @@
 # Web_Development
 being zeo class
-Practicing gtml,js and css codes
+Practice on html,js and css codes
