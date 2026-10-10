@@ -1,0 +1,28 @@
+h1{
+    color: brown;
+}
+.greet{
+    color: blueviolet;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px;
+    text-align: center;
+    background-color: aqua;
+}
+.box a{
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(165, 42, 42);
+}
+.box :hover{
+color: green;
+text-decoration: underline;
+font-size: large;
+}
+body{
+    margin: 0px;
+}
