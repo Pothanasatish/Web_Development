@@ -28,3 +28,19 @@ function toggle(){
     document.getElementById("image").src=data[index].image;
 
 }
+
+function randomUser(){
+    fetch("https://randomuser.me/api")
+        .then((res)=>{
+           return res.json();
+        })
+        .then((data)=>{
+            var user=data.results[0];
+            var gender=user.gender;
+            var fullName=user.name.title+" "+user.name.first+" "+user.name.last;
+            var image=user.picture.large;
+            document.getElementById("name").innerText=fullName;
+            document.getElementById("gender").innerText=gender;
+            document.getElementById("image").src=image;
+        })
+}
